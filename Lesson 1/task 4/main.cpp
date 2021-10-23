@@ -5,9 +5,8 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
     int a, b, c, D, x1, x2;
-    cout << "„B„r„u„t„y„„„u 3 „‰„y„ƒ„|„p:" << endl;
+    cout << "Enter 3 random numbers" << endl;
     cin >> a >> b >> c;
 
     D = b^2 - 4 * a * c;
@@ -20,7 +19,7 @@ int main()
 
     }
     if(D < 0){
-        cout << "„K„€„‚„~„u„z „~„u„„!";
+        cout << "Denied";
     }
 
     if(D == 0){
